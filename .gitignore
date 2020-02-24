@@ -9,6 +9,8 @@ Packages
 .build
 xcuserdata
 *.xcodeproj
+*.xcworkspacedata
+*.xcscheme
 DerivedData/
 .DS_Store
 
