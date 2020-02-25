@@ -1,8 +1,9 @@
-#set("title") { It works }
+#set("title") { ProviderWebManager }
 
 #set("body") {
-	<div class="welcome">
-		<img src="/images/it-works.png">
+	<div class="grid-container">
+		<div class="main"></div>
+		<div class="console"></div>
 	</div>
 }
 

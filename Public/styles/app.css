@@ -1,19 +1,28 @@
-body, html {
+html, body {
 	height: 100%;
 }
 
 body {
 	font-family: sans-serif;
+	margin: 0;
+	color: white;
+	background: black;
 }
 
-div.welcome {
+.main {
+	grid-area: main;
+}
+
+.console {
+	grid-area: console;
+	border-top: 1px solid white;
+}
+
+.grid-container {
+	display: grid;
 	height: 100%;
-	text-align: center;
-}
-
-div.welcome img {
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-	width: 300px;
+	grid-template-areas:
+		'main'
+		'main'
+		'console';
 }
